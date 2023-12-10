@@ -5,9 +5,11 @@
   "main": "server.ts",
   "type": "commonjs",
   "scripts": {
+    "build": "npx tsc",
     "start": "node dist/server.js",
     "dev": "concurrently \" npx tsc --watch\" \"node --watch dist/server.js\"",
-    "prod": "concurrently \"cross-env NODE_ENV=production npx tsc --watch\" \"cross-env NODE_ENV=production node --watch dist/server.js\""
+    "prod": "concurrently \"cross-env NODE_ENV=production npx tsc --watch\" \"cross-env NODE_ENV=production node --watch dist/server.js\"",
+    "vercel-build": "echo hello"
   },
   "author": "Khubayan",
   "license": "ISC",
