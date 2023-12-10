@@ -1,0 +1,62 @@
+[
+  {
+    "medical_record_number": "MRN001",
+    "fullname": "John Doe",
+    "birthdate": "1985-05-15",
+    "sex": "Male",
+    "village": "Greenwood",
+    "sub_district": "Westborough",
+    "district": "Cityville",
+    "religion": "Christianity",
+    "tribe": "None",
+    "highest_education_level": "Bachelor's Degree"
+  },
+  {
+    "medical_record_number": "MRN002",
+    "fullname": "Jane Smith",
+    "birthdate": "1990-08-22",
+    "sex": "Female",
+    "village": "Maplewood",
+    "sub_district": "Eastborough",
+    "district": "Cityville",
+    "religion": "Islam",
+    "tribe": "None",
+    "highest_education_level": "Master's Degree"
+  },
+  {
+    "medical_record_number": "MRN003",
+    "fullname": "Alex Johnson",
+    "birthdate": "1978-12-10",
+    "sex": "Male",
+    "village": "Oakridge",
+    "sub_district": "Southborough",
+    "district": "Cityville",
+    "religion": "Hinduism",
+    "tribe": "None",
+    "highest_education_level": "High School Diploma"
+  },
+  {
+    "medical_record_number": "MRN004",
+    "fullname": "Emily Davis",
+    "birthdate": "1982-03-18",
+    "sex": "Female",
+    "village": "Pinecrest",
+    "sub_district": "Northborough",
+    "district": "Cityville",
+    "religion": "Buddhism",
+    "tribe": "None",
+    "highest_education_level": "Associate's Degree"
+  },
+  {
+    "medical_record_number": "MRN005",
+    "fullname": "Michael Brown",
+    "birthdate": "1995-07-03",
+    "sex": "Male",
+    "village": "Cedarville",
+    "sub_district": "Centralborough",
+    "district": "Cityville",
+    "religion": "Judaism",
+    "tribe": "None",
+    "highest_education_level": "Doctorate Degree"
+  }
+]
