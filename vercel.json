@@ -1,14 +1,11 @@
 {
-  "functions": {
-    "api/**/*.js": {
-      "includeFiles": "src/api/**/*"
-    }
-  },
   "rewrites": [
     {
-      "source": "/api/(.*)",
-      "function": "api/index.js"
+      "source": "/src/api/(.*)",
+      "destination": "/dist/api/$1"
+    },
+    {
+      "devCommand": "npm run dev"
     }
-  ],
-  "cleanUrls": true
+  ]
 }
