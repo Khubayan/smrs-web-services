@@ -2,8 +2,7 @@
   "rewrites": [
     {
       "source": "/src/api/(.*)",
-      "destination": "/dist/api/$1",
-      "devCommand": "npm run dev"
+      "destination": "/dist/api/$1"
     }
   ]
 }
