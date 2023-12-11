@@ -1,8 +1,14 @@
 {
+  "functions": {
+    "api/**/*.js": {
+      "includeFiles": "src/api/**/*"
+    }
+  },
   "rewrites": [
     {
-      "source": "/src/api/(.*)",
-      "destination": "/dist/api/$1"
+      "source": "/api/(.*)",
+      "function": "api/index.js"
     }
-  ]
+  ],
+  "cleanUrls": true
 }
