@@ -1,7 +1,7 @@
-import express, { json } from "express";
-import dotenv from "dotenv";
+import express from "express";
+
 import morgan from "morgan";
-import patientRouter from "./routes/patientRoutes";
+import patientRouter from "../routes/patientRoutes";
 
 const app = express();
 app.use(express.json());

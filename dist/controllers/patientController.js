@@ -7,7 +7,7 @@ exports.postNewPatient = exports.getPatient = exports.getAllPatients = exports.i
 const fs_1 = require("fs");
 const isRequiredParamsMissing_1 = require("../utils/isRequiredParamsMissing");
 const patientRequiredParams_1 = __importDefault(require("../const/patientRequiredParams"));
-const patients = JSON.parse((0, fs_1.readFileSync)(`../dev-data/data/patients-simple.json`, "utf-8"));
+const patients = JSON.parse((0, fs_1.readFileSync)(`./dev-data/data/patients-simple.json`, "utf-8"));
 const isValidMedicalRecordNumber = (req, res, next, val) => {
     const formatedMedicalRecordNumber = val.toUpperCase();
     const patient = patients.find((el) => el.medical_record_number === formatedMedicalRecordNumber);

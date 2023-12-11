@@ -7,7 +7,7 @@ const dotenv_1 = __importDefault(require("dotenv"));
 dotenv_1.default.config({
     path: "./config.env",
 });
-const app_1 = __importDefault(require("./app"));
+const app_1 = __importDefault(require("./api/app"));
 // console.log(process.env);
 const port = process.env.PORT || 3000;
 app_1.default.listen(port, () => {

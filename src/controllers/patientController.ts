@@ -6,7 +6,7 @@ import { isRequiredParamsMissing } from "../utils/isRequiredParamsMissing";
 import patientRequiredParams from "../const/patientRequiredParams";
 
 const patients: [] = JSON.parse(
-  readFileSync(`../dev-data/data/patients-simple.json`, "utf-8")
+  readFileSync(`./dev-data/data/patients-simple.json`, "utf-8")
 );
 
 export const isValidMedicalRecordNumber = (
